@@ -69,7 +69,7 @@ function draw(){
     }
     else {
         ampm = "PM";
-    };
+    }
     fill("pink")
     textSize(35);
     text("TIME : " + hour + ampm,50,50);
